@@ -58,7 +58,7 @@ public class Player : MonoBehaviour, IPunObservable
     {
         if (scoreSetted) 
         {
-            ChangePlayerSize(); =
+            ChangePlayerSize(); 
             scoreSetted = false; 
         }
 
@@ -103,7 +103,7 @@ public class Player : MonoBehaviour, IPunObservable
         MovePlayer(); 
     }
 
-  =
+  
     private void ChangePlayerSize()
     {
         float size = transform.localScale.x + (_score / 100f); 

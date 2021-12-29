@@ -7,7 +7,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     [Tooltip("Меню подключения")]
     [SerializeField] private GameObject _connectingMenu; 
 
-    private bool _connectedToMaster = false; /
+    private bool _connectedToMaster = false; 
     private bool _connectingToRoom = false; 
 
     
